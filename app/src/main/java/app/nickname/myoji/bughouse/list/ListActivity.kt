@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import app.nickname.myoji.bughouse.R
 
 class ListActivity : AppCompatActivity() {
-    private val taskList: List<Task> = listOf(
+    private var taskList: List<Task> = mutableListOf(
         Task("Task 1"),
         Task("Task 2"),
         Task("Task 3")
